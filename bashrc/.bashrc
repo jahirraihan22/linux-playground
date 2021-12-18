@@ -145,5 +145,7 @@ alias cu='composer update'
 alias mkcontroller='php artisan make:controller' $NAME
 alias mkmodel='php artisan make:model' $NAME
 alias mkmodelr="php artisan make:model $NAME -mcr"
+alias jpl="jupyter-lab"
+
 
 
