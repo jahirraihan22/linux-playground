@@ -146,6 +146,10 @@ alias mkcontroller='php artisan make:controller' $NAME
 alias mkmodel='php artisan make:model' $NAME
 alias mkmodelr="php artisan make:model $NAME -mcr"
 alias jpl="jupyter-lab"
+alias gpo="git push origin $ORIGIN"
+alias nrw='npm run watch'
+alias pa='php artisan ' $COMMAND
+
 
 
 
