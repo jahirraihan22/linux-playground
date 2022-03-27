@@ -1,5 +1,10 @@
 #! /bin/bash
 
+echo "changing php cli v to :"
+read v
+
+#sleep 1
+
 sudo update-alternatives --set php /usr/bin/php$v
 sudo update-alternatives --set phar /usr/bin/phar$v
 sudo update-alternatives --set phar.phar /usr/bin/phar.phar$v
