@@ -3,7 +3,6 @@
 # for examples
 
 # If not running interactively, don't do anything
-#echo 'MY PLAYGROUND';
 case $- in
     *i*) ;;
       *) return;;
@@ -93,16 +92,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-#custom aliases
-#alias venv = 'virtualenv' $NAME
-
-#alias pas = 'php artisan serv'
-#alias cu = 'composer update'
-#alias ga = 'git add'
-#alias gs = 'git status'
-#alias gc = 'git commit -m' $COMMIT
-
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -127,29 +116,27 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# custom aliases
 
-#custom aliases
-alias venv='virtualenv' $NAME
-
-alias paserve='php artisan serve'
+alias pas='php artisan serve'
 alias cu='composer update'
-alias ga='git add'
+alias ga='git add .'
 alias gs='git status'
-alias gc='git commit -m' $COMMIT
+alias gc='git commit -m' $COMMI
+alias gac="git add . && git commit -m $COMMI"
 alias clp='composer create-project laravel/laravel' $PROJECT
 alias cu='composer update'
-alias mkcontroller='php artisan make:controller' $NAME
+alias mkctr='php artisan make:controller' $NAME
 alias mkmodel='php artisan make:model' $NAME
 alias mkmodelr="php artisan make:model $NAME -mcr"
-alias jpl="jupyter-lab"
+# alias jpl="jupyter-lab"
 alias gpo="git push origin $ORIGIN"
-alias nrw='npm run watch'
+alias gpull="git pull origin $BRANCH"
+alias gcout="git checkout $BRANCH"
+# alias nrw='npm run watch'
 alias pa='php artisan ' $COMMAND
+alias c='clear'
 
-
-
+alias lampp='sudo /opt/lampp/manager-linux-x64.run'
 
