@@ -45,6 +45,7 @@ install common php packages
 
 # permission
     sudo chmod -R 777 ./storage
+    sudo chmod -R 777 bootstrap/cache/
 
 
 # install process for node via nvm
