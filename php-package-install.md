@@ -10,3 +10,8 @@
  
  
     sudo apt install php7.4 php7.4-common php7.4-opcache php7.4-cli php7.4-gd php7.4-curl php7.4-mysql
+
+
+
+
+    https://computingforgeeks.com/how-to-install-php-on-ubuntu/
