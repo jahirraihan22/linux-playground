@@ -14,4 +14,4 @@
 
 
 
-    https://computingforgeeks.com/how-to-install-php-on-ubuntu/
+https://computingforgeeks.com/how-to-install-php-on-ubuntu/
