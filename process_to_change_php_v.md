@@ -10,10 +10,10 @@ Apache:-
 Command Line:-
  
  
-    sudo update-alternatives --set php /usr/bin/php7.4
-    sudo update-alternatives --set phar /usr/bin/phar7.4
-    sudo update-alternatives --set phar.phar /usr/bin/phar.phar7.4
-    sudo update-alternatives --set phpize /usr/bin/phpize7.4
+    sudo update-alternatives --set php /usr/bin/php7.4 &&
+    sudo update-alternatives --set phar /usr/bin/phar7.4 &&
+    sudo update-alternatives --set phar.phar /usr/bin/phar.phar7.4 &&
+    sudo update-alternatives --set phpize /usr/bin/phpize7.4 &&
     sudo update-alternatives --set php-config /usr/bin/php-config7.4
 
 Note – The phpize7.4 and php-config7.4 command is available in the php7.4-dev package. This is more useful for compiling PHP modules using pecl.
