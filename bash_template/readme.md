@@ -19,4 +19,4 @@
   
   
   
-### that's is all set to create bash script template
+### that's it, all set to create bash script template
