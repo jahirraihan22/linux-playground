@@ -9,7 +9,7 @@ echo '#Purpose: ' >> /$PWD/$file.sh
 echo '#Version: ' >> /$PWD/$file.sh
 echo '#Created Date: ' `date`  >> /$PWD/$file.sh
 echo '#Modified Date: ' >> /$PWD/$file.sh
-echo "#Author: Jahir Raihan" >> /$PWD/$file.sh
+echo "#Author: $USER" >> /$PWD/$file.sh
 echo "# Start # " >> /$PWD/$file.sh
 echo "###################################### " >> /$PWD/$file.sh
 echo
