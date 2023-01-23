@@ -1,4 +1,4 @@
-# geting via curl
+# getting via curl
 
 
     curl -o template https://raw.githubusercontent.com/jahirraihan22/linux_playground/master/bash_template/template.sh
